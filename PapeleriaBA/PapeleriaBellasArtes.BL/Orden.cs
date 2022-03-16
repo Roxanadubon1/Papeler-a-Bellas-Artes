@@ -21,6 +21,8 @@ namespace PapeleriaBellasArtes.BL
         {
             Activo = true;
             Fecha = DateTime.Now;
+
+            ListadeOrdenDetalle = new List<OrdenDetalle>();
         }
     }
 
